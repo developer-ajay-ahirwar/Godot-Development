@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://beupkdtu0x87u"]
+
+[ext_resource type="PackedScene" uid="uid://pxkjropbo370" path="res://Scene/platfrom.tscn" id="1_i83s2"]
+[ext_resource type="PackedScene" uid="uid://dh2y5jlwh548f" path="res://Scene/player.tscn" id="2_i83s2"]
+
+[node name="GamePlay" type="Node2D" unique_id=1640615281]
+
+[node name="Platfrom" type="Node2D" parent="." unique_id=818799986]
+
+[node name="Platfrom" parent="Platfrom" unique_id=2145392141 instance=ExtResource("1_i83s2")]
+position = Vector2(224, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom2" parent="Platfrom" unique_id=1365622849 instance=ExtResource("1_i83s2")]
+position = Vector2(288, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom3" parent="Platfrom" unique_id=2001246763 instance=ExtResource("1_i83s2")]
+position = Vector2(352.00003, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom4" parent="Platfrom" unique_id=680680672 instance=ExtResource("1_i83s2")]
+position = Vector2(416, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom5" parent="Platfrom" unique_id=342468980 instance=ExtResource("1_i83s2")]
+position = Vector2(480, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom6" parent="Platfrom" unique_id=532095890 instance=ExtResource("1_i83s2")]
+position = Vector2(544, 416)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom7" parent="Platfrom" unique_id=2107419157 instance=ExtResource("1_i83s2")]
+position = Vector2(728, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom8" parent="Platfrom" unique_id=1269108220 instance=ExtResource("1_i83s2")]
+position = Vector2(792, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom9" parent="Platfrom" unique_id=1777203449 instance=ExtResource("1_i83s2")]
+position = Vector2(856, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom10" parent="Platfrom" unique_id=1483525912 instance=ExtResource("1_i83s2")]
+position = Vector2(920, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom11" parent="Platfrom" unique_id=1007235266 instance=ExtResource("1_i83s2")]
+position = Vector2(984, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Platfrom12" parent="Platfrom" unique_id=1681124555 instance=ExtResource("1_i83s2")]
+position = Vector2(1048, 472)
+scale = Vector2(3.11, 4.48)
+
+[node name="Player" type="Node2D" parent="." unique_id=1612755048]
+
+[node name="CharacterBody2D" parent="." unique_id=2026870308 instance=ExtResource("2_i83s2")]
+position = Vector2(128, -112)
+scale = Vector2(0.74, 0.74)

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://pxkjropbo370"]
+
+[ext_resource type="Texture2D" uid="uid://d3kvhiuev1xqs" path="res://Asset/particleBrick1a.png" id="1_jir7k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rnpy5"]
+size = Vector2(20, 14)
+
+[node name="Platfrom" type="StaticBody2D" unique_id=2145392141]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=12121420]
+texture = ExtResource("1_jir7k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1825054779]
+shape = SubResource("RectangleShape2D_rnpy5")

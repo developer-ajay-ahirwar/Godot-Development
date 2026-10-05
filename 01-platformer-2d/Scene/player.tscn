@@ -4,16 +4,17 @@
 [ext_resource type="Script" uid="uid://bijpepws22b5e" path="res://Scripts/Player.gd" id="1_yx0hs"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rnpy5"]
-radius = 73.43705
+radius = 107.77665
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2026870308]
+[node name="player" type="CharacterBody2D" unique_id=2026870308]
 script = ExtResource("1_yx0hs")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=938728434]
-position = Vector2(328, 225)
+position = Vector2(327, 215)
 texture = ExtResource("1_la1h0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1139873513]
-position = Vector2(324.905, 218.855)
-rotation = -6.2831855
+position = Vector2(327.00003, 220)
+rotation = -6.2413006
+scale = Vector2(0.5975248, 0.6604546)
 shape = SubResource("CircleShape2D_rnpy5")
