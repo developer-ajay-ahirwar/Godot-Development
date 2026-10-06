@@ -10,11 +10,13 @@ radius = 107.77665
 script = ExtResource("1_yx0hs")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=938728434]
-position = Vector2(327, 215)
 texture = ExtResource("1_la1h0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1139873513]
-position = Vector2(327.00003, 220)
 rotation = -6.2413006
 scale = Vector2(0.5975248, 0.6604546)
 shape = SubResource("CircleShape2D_rnpy5")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1657953105]
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
